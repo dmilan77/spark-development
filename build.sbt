@@ -1,4 +1,4 @@
-name := "spark-development"
+name := "spark-dev-sandbox"
 
 version := "1.0"
 

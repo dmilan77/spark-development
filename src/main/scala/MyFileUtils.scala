@@ -1,10 +1,7 @@
 import java.net.URI
 
-import org.apache.commons.io.FilenameUtils
-import org.apache.commons.lang.StringEscapeUtils
 import org.apache.hadoop.fs.{FileUtil, Path, FileSystem}
 import org.apache.spark.SparkContext
-import org.apache.spark.rdd.RDD
 
 object  MyFileUtils {
 
