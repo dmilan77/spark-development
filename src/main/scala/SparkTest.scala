@@ -30,8 +30,8 @@ object SparkTest {
     outputDF.registerTempTable(tempTableName)
 
     val outputDF_1 =
-      hiveContext.sql("select " + "*" + " from " + tempTableName)
-    //hiveContext.sql("select " + col_select_list + " from " + tempTableName)
+      hiveContext.sql("select " + col_select_list + " from " + tempTableName)
+//      hiveContext.sql("select " + "*" + " from " + tempTableName)
     outputDF_1.write
       .mode(SaveMode.Overwrite)
       .format("com.databricks.spark.csv")
