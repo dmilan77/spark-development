@@ -101,7 +101,7 @@ object HadoopFileUtil {
   /** Read files from  HDFS and merge it into singe file.
     *
     * @example 1
-    *          {{{HadoopFileUtil.renameFiles("/user/hive/testrename/wk_clm_rndrg_prov",
+    *          {{{HadoopFileUtil.renameFiles("/user/hive/testrename/xxxxx",
     *                                        "toNewFileName",
     *                                        sc)
     *          }}}
